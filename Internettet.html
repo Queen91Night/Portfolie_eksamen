@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Internettet</title>
+        
+        <link rel="stylesheet" href="Responsiv_navbar_styling.css">
+        <link rel="stylesheet" href="Internettet.css">
+        <link rel="stylesheet" href="divider.css">
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Mukta+Vaani|Poppins&display=swap" rel="stylesheet">
+        
+    </head>
+<body>
+    
+    <input type="checkbox" id="check">
+    <label for="check">
+     
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+        
+    </label>
+    
+    <div class="sidebar">
+        <header>Portfolie</header>
+        
+        <ul>
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Historie</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Farver.html">Farver</a>
+                    <a href="Typografi.html">Typografi</a>
+                    <a href="Internettet.html">Internettet</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Design</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Tekstprodukton.html">Tekstproduktion</a>
+                    <a href="Gestalloven.html">Gestaltloven</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Service</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="#">Kvantitativ empiri</a>
+                    <a href="#">Kvalitativ empiri</a>
+                    <a href="#">Business Model Generation</a>
+                </div>
+            </li>
+             
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Samlet</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Prasentation.html">Præsentationsteknik</a>
+                    <a href="Brugertest.html">Brugertest</a>
+                    <a href="Serversite.html">Serverside</a>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="Licens.html">Licens</a>
+            </li>
+            
+            <li>
+                <a href="Info.html">Info arkitektur</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    
+
+ <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+   
+    
+    
+    
+    
+<!---------------------------------------------------------------> 
+
+<section> 
+     
+<div id="mitgrid">
+            
+            <div class="udviklingen"><h1>Internettet</h1>
+                
+<br>
+          
+<p>Internettet tager sin begyndelse under den kolde krig i 1960´erne, da militæret anså telenettet som usikkert og sårbart. Sammen med forskere udviklede de den første kommunikationsmulighed. 
+<br>
+<br>Computerne i perioden op til kunne ikke sende informationer, så hvis man skulle kommunikere måtte dette ske igennem en magnetisk lageringsenhed der blev sendt med den traditionelle post.</p>
+<br>           
+<p>Militæret og forskernes arbejde ledte til oprettelsen af Apranet, et netværk som kunne sende informationer fra en computer til en anden. Op igennem 70´erne blev der oprettet flere netværk og i 1983 opstod TCP/IP, et protokol-system der åbnede kommunikationen imellem de forskellige netværks.</p>
+            
+<p>1983´s udviklingen af protokol-systemet anset til at være internettet fødselsdag, men først i 1991 lægges grundstenen til det internet vi kender i dag af Tim-Berners-Lee da han indføre "www" world wide web forbindelsen.</p>
+
+<i><a href="https://www.netkablet.dk/hvor-gammel-er-internettet/">www.netkablet.dk/Internettet</a></i>
+            
+            </div>
+                
+            
+            <div class="hypertext">
+                
+                <img src="Billeder/hypertext.jpg" width="100%">
+                <h4>Hypertext</h4>
+                
+<p>Er de links som kobles imellem to websites</p>
+                
+            </div>
+    
+    
+            <div class="world">
+                
+                <img src="Billeder/www.jpg" width="100%">
+                <h4>World Wide Web</h4>
+                
+<p>Er er hypertext-system, med samme funkion som det almindelig link, her er der i stedet tale om browseren som linker til et server-system</p>
+               
+            </div>    
+    
+            <div class="information_img">
+                <img src="Billeder/overload.jpg" width="100%">
+            </div>      
+    
+            <div class="information"><h2>Indformation overload</h2>
+                
+<p>Information overload betyder rent ud sagt at vi lægger informationer på informationer i en konstant strøm.</p>
+<p>I takt med at teknologien og omgivelserne ændre sig kommer der hele tiden ny viden og informationer som bliver sendt ove i alt det som i forvejen ligger både på maskinen men også på kroppen psykisk.</p>
+            
+<p>Dette kan være virksomheder som laver eller ændre deres oplysninger, til de private som dele, dublikere og laver nye informationer. Alt det som ikke længere er aktuelt havner i stedet som historisk data, hvilke kan resultere i langsommere kommunikationshastighed samt strukturelle problemer i forhold til webudvikling.</p>
+                      
+<i><a href="https://www.interaction-design.org/literature/article/information-overload-why-it-matters-and-how-to-combat-it">www.interaction-design.org/Information overload</a></i>
+                
+                
+            </div>
+            
+            <div class="protokol"><h3>Protokol</h3>
+                
+<br>
+<p>Konceptet internet-protokol opstod i 1983 da den første protokol Tcp/IP åbnede de første forbindelse imellem netværker.</p>
+<br>
+<p>Tcp/IP står for;</p>
+            
+          
+<p>Tcp: Transmission control protokol</p>
+<br>
+<p>Dennes formål er at sikre at de oplysninger som sends via IP (Internet protokollen) havner hos brugeren i den rigtige rækkefølge samt at genskabe dem som tabes undervejs.</p> 
+                
+<br>
+<br>
+                
+<p>IP: Forkortelsen af internet protokol som er den enhed som transmittere oplysninger fra et netværk til et andet.</p>
+
+            
+<p>Der findes i dag mange flere protokoller, alle med hver deres formål og handlinger.</p>
+            
+            <br>
+            
+            <i><a href="https://www.superusers.dk/artikel/tcp_ip/">www.superusers.dk/protokol</a></i>
+                
+            </div>
+            
+            <div class="apranet"><h3>apranet</h3>
+                
+                <img src="Billeder/mail.jpg" width="100%">
+                
+<p>Advanced Researce Projects Agency Network var et netværk som blev oprettet af det amerikanske militær.</p>
+
+<p>Formålet var at gøre transmissionen af data nemmere ved at få systemerne til at tale sammen, samt at fjerne et usikker telnet.</p>
+            
+<p>I 1969 sender en studerende den første mail med beskeden "login", kun to ord kom tilbage, dette var med til at starte udviklingen af protokoler</p>
+            
+            <br>
+            <br>
+            
+<i><a href="https://videnskab.dk/teknologi/internettet-fylder-40-i-dag">videnskab.dk/Arpnet</a></i>
+                
+            </div>
+            
+            <div class="aurl"><h3>Url</h3>
+                
+                <img src="Billeder/url.jpg" width="100%">
+                
+<p>URL - Uniform Ressource Locator er en søge mulighed bestående af;</p>
+
+                <br>
+<p>- Protokol = http://</p>
+<p>- Subdomæne = www.</p>
+<p><p>- Domænenavn = navnet på websitet</p>
+<p>- ccTLD - Country Code Top Level Domain</p>
+                            
+            <br>
+            <br>
+            <br>
+            
+        
+            <i><a href="https://www.henrik-bondtofte.dk/ordbog/url/">www.henrik-bondtofte.dk/URL</a></i>
+               
+            </div>
+            
+            <div class="seo"><h3>Seo</h3>
+                
+                <img src="Billeder/seo.jpg" width="100%">
+                
+<p>SEO står for Search Engine Optimization og omhandler optimering af websitet så man placere sig bedst muligt på netværket.</p>
+                <br>
+                
+<p>For at optimere siden bedst mulig kan man benytte sig af 3 elementer;</p>
+            
+
+<p>Tekniske element - Html, css, java og PHP</p>
+<p>Indholdselement - informationsarkitetur</p>
+<p>Autoritær element - udefra kommende personer som linker til wetsitet</p>
+
+            <br>
+                    
+            <i><a href="https://www.skjoldby.com/viden/hvad-er-seo/">www.skjoldby.com/SEO</a></i>
+                
+                
+              
+            </div>
+    
+    </div>
+
+
+    
+<footer>
+<p>Heidi Johansen &copy; 1 semester eksamen</p>    
+</footer>
+    
+</section>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+          
+        "gestalt gestalt"
+            "hvid hvid"
+            "gyldne gyldne"
+            "billede1 billede1"
+            "billede2 billede2"
+            "billede3 billede3"
+            "billede4 billede4"
+            "billede5 billede5"
+            "billede6 billede6"
+            "tom tom"
+            ;
+        
+        }
+
+                .gestalt {
+                    background-color: #fff; 
+                    grid-area: gestalt;
+                    
+                     background-image: url(Billeder/a_2_dark.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding: 20px;
+                   
+                }
+
+              .hvid {
+                    background-color: #fff;
+                    grid-area: hvid;
+                    
+                    background-color: #555555;
+                  
+                    padding: 15px;
+                    
+                    
+                }
+
+                .gyldne {
+                    
+                   
+                    background-color: #fff;
+                    grid-area: gyldne;
+                    
+                    background-color: #555555;
+                    
+                    padding: 15px;
+                    
+                 
+                }
+
+                .billede1 {
+                    background-color: #fff;
+                    grid-area: billede1;
+                    
+                    background: transparent;
+                  
+                }
+
+                .billede2 {
+                    background-color: #fff;
+                    grid-area: billede2;
+                    
+                    background: transparent;
+                }
+
+                .billede3 {
+                    background-color: #fff;
+                    grid-area: billede3;
+                    
+                    background: transparent;
+                }
+
+                .billede4 {
+                    background-color: #fff;
+                    grid-area: billede4;
+                    
+                    background: transparent;
+                }
+
+                .billede5 {
+                    background-color: #fff;
+                    grid-area: billede5;
+                    
+                    background: transparent;
+                }
+
+                .billede6 {
+                    background-color: #fff;
+                    grid-area: billede6;
+                    
+                    background: transparent;
+                }
+
+                
+
+
+                .tom {
+                    background-color: #fff;
+                    grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+@media screen and (min-width: 736px){
+    
+   
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 390px 390px 390px 1fr;
+    
+        grid-template-areas:
+    
+        ". gestalt gestalt gestalt ."
+            
+        ". hvid hvid hvid ."
+        ". gyldne gyldne gyldne ."
+        
+        ". billede1 billede2 billede3 ."
+        ". billede4 billede5 billede6 ."
+        ". tom tom tom ."
+       ;
+                
+        
+        
+        }
+    
+}

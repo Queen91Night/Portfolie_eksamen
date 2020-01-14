@@ -1,0 +1,241 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+ 
+                
+            "usability usability"
+            "metode metode"
+            "metodetext metodetext"
+            "tidspunkt tidspunkt"
+            "analyse analyse"
+            "design design"
+            "evaluering evaluering"
+            "pilot pilot"
+            "proto proto"
+            "billede1 billede1"
+            "gangster gangster"
+            "struktur struktur"
+            "varktoj varktoj"
+            "navig navig"
+            "sogning sogning"
+            "billede2 billede2"
+            "kort kort"
+            "billede3 billede3"
+            "bruger bruger"
+            "billede4 billede4"
+            "tilgangtest tilgangtest"
+            "tom tom"
+            ;
+        
+        }
+
+                .usability { 
+                    grid-area: usability;
+                                    
+                     background: transparent;
+                }
+
+                .metode {
+                    grid-area: metode;
+                    
+                    background-image: url(Billeder/brugertest.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding: 100px;
+                }
+
+                .metodetext {
+                    grid-area: metodetext;
+                    
+                    background: transparent;
+                    padding: 15px;
+                }
+
+                .tidspunkt {
+                    grid-area: tidspunkt;
+                    
+                    background-color: #111111;
+                    padding: 15px;
+                  
+                }
+
+                .analyse {
+                    grid-area: analyse;
+                    
+                    background-color: #111111;
+                    padding: 15px;
+                    
+                    
+                    
+                }
+
+                .design {
+                    grid-area: design;
+                    
+                    background-color: #111111;
+                    padding: 15px;
+                    
+                    
+                    
+                }
+
+                .evaluering {
+                    grid-area: evaluering;
+                    
+                    background-color: #111111;
+                    padding: 15px;
+                    
+                    
+                    
+                }
+
+                .pilot {
+                    grid-area: pilot;
+                    
+                    padding: 10px;
+                }
+
+                .proto {
+                    grid-area: proto;
+                    
+                    padding: 10px;
+                }
+
+                .billede1 {
+                    grid-area: billede1;
+                    
+                    padding: 15px;
+                    
+                    background-color: black;
+                }
+
+                .gangster {
+                    grid-area: gangster;
+                    
+                    background: transparent;
+                    
+                }
+
+                .struktur {
+                    grid-area: struktur;
+                    
+                    background-color: #111111;
+                }
+
+                .varktoj {
+                    grid-area: varktoj;
+                    
+                    background-color: #111111;
+                }
+
+                .navig {
+                    grid-area: navig;
+                    
+                    background-color: #111111;
+                }
+
+                .sogning {
+                    grid-area: sogning;
+                    
+                    background-color: #111111;
+                }
+
+                .billede2 {
+                    grid-area: billede2;
+                    
+                    background: transparent;
+                }
+
+                .kort {
+                    grid-area: kort;
+                    
+                    background: transparent;
+                }
+
+                .billede3 {
+                    grid-area: billede3;
+                    
+                    background: transparent;
+                }
+
+                .bruger {
+                    grid-area: bruger;
+                    
+                    background: transparent;
+                }
+
+                .billede4 {
+                    grid-area: billede4;
+                    
+                    background: transparent;
+                }
+
+                .tilgangtest {
+                    grid-area: tilgangtest;
+                    
+                    background: transparent;
+                }
+
+                .tom {
+                    grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+@media screen and (min-width: 736px){
+    
+   
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 380px 380px 380px 1fr;
+    
+        grid-template-areas:
+    
+        ". usability usability usability ."
+        ". metode metodetext metodetext ."
+        ". tidspunkt tidspunkt tidspunkt ."
+        ". analyse design evaluering ."
+        ". . pilot pilot ."
+        ". . proto proto ."
+        ". billede1 gangster gangster ."
+        ". struktur varktoj navig ."
+        ". sogning sogning sogning ."
+        ". billede2 kort kort ."
+        ". billede3 bruger bruger ."
+        ". billede4 tilgangtest tilgangtest ."
+        ". tom tom tom .";
+                
+        
+        
+        }
+    
+}

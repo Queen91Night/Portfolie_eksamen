@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Brugertest/usability</title>
+        
+        <link rel="stylesheet" href="Responsiv_navbar_styling.css">
+        <link rel="stylesheet" href="Brugertest.css">
+        <link rel="stylesheet" href="divider.css">
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Mukta+Vaani|Poppins&display=swap" rel="stylesheet">
+        
+    </head>
+<body>
+    
+    <input type="checkbox" id="check">
+    <label for="check">
+     
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+        
+    </label>
+    
+    <div class="sidebar">
+        <header>Portfolie</header>
+        
+        <ul>
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Historie</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Farver.html">Farver</a>
+                    <a href="Typografi.html">Typografi</a>
+                    <a href="Internettet.html">Internettet</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Design</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Tekstprodukton.html">Tekstproduktion</a>
+                    <a href="Gestalloven.html">Gestaltloven</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Service</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="#">Kvantitativ empiri</a>
+                    <a href="#">Kvalitativ empiri</a>
+                    <a href="#">Business Model Generation</a>
+                </div>
+            </li>
+             
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Samlet</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Prasentation.html">Præsentationsteknik</a>
+                    <a href="Brugertest.html">Brugertest</a>
+                    <a href="Serversite.html">Serverside</a>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="Licens.html">Licens</a>
+            </li>
+            
+            <li>
+                <a href="Info.html">Info arkitektur</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    
+
+ <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+   
+    
+    
+    
+    
+<!---------------------------------------------------------------> 
+
+<section> 
+     
+<div id="mitgrid">
+            
+            
+            <div class="usability"><h1>Hvad er usability</h1> 
+            </div>
+    
+            <div class="metode">
+            </div>    
+    
+            <div class="metodetext">
+                
+<p>Usabylity er en metode til hvorpå man kan finde frem til brugernes oplevelser af blandt andet hjemmeside og apps både under og efter udviklingen af det gældende media.</p>
+        
+<p>Der findes mange forskellige måde at undersøge disse omstændigheder på. 
+<br>Men først og fremmest handler det om at finde frem til den oplevelse som brugeren oplever.</p>
+        
+<br>
+        
+<i1>"Hvis man ikke intressere sig for websitets usabylity, er det det samme som, at man ikke intressere sig for, hvordan websitet bliver brugt."</i1> 
+   
+<i1>(Usability - Testmetoder til mere brugbare websites (side. 14))</i1>
+<br>
+<br>
+                
+<p>Man kan opdele brugerens oplevelse ud fra tre kategorier;</p>
+<br>       
+<p><b>Funktionalitet</b>- betyder at websitet så vidt muligt skal indeholde de oplysninger som brugeren ønsker tilgang til.</p>
+
+<p><b>Effektivitet</b>- Websitet skal være nemt og tilgængeligt så brugeren ikke kan finde de oplysninger som han eller hun ønsker at finde.</p>
+
+<p><b>Tilfredshed</b>- fokus på design og brugervenlighed kan hjælpe til at gøre brugerne oplevelse behagelig, som kan virke til websitets fremtidige succes.</p>
+            
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 15))</i>
+        
+            </div>
+            
+            <div class="tidspunkt"><h3>Tidspunkt i udviklingsprocessen</h3>
+            </div>
+   
+            <div class="analyse">
+                <img src="Billeder/analyse.jpg" width="100%">
+                <h3>Analyse</h3>
+                
+<p4>Igennem en analyse undersøger man, hvad der skal designes og grundlaget derefter.</p4>
+                
+<br>
+<br>
+<br>
+                
+<i>(Usability - Testmetoder til mere brugbare websites (side. 27))</i>
+                
+            </div>
+            
+            <div class="design">
+                <img src="Billeder/design.jpg" width="100%">
+                <h3>Design</h3>
+                
+<p4>Udviklingsprocessen i forhold til hvordan designet skal ændres.</p4>
+
+<br>
+<br>
+<br>
+                
+<i>(Usability - Testmetoder til mere brugbare websites (side. 27))</i>
+            
+            </div>
+            
+            <div class="evaluering">
+                <img src="Billeder/evaluering.jpg" width="100%">
+                <h3>Evaluering</h3>
+                
+<p4>Udviklingsprocessen i forhold til hvordan designet skal ændres.</p4>
+            
+<br>
+<br>
+<br>
+    
+<i>(Usability - Testmetoder til mere brugbare websites (side. 27))</i>
+                
+            </div>
+              
+            <div class="pilot">
+                <img src="Billeder/kunpov.png" width="100%">
+
+<h2>Pilot</h2>
+<br> 
+<p>Pilottesten er en prætest hvor man danner sig et overblik over den valgte testmetode - her finder man blandt andet ud af om metoden egner sig til de resultater man ønsker, eller om testen skal forbedres eller ændres for at tilpasse kriterierne</p>
+        
+<i>(Usability - Testmetoder til mere brugbare websites (side. 40))</i>
+                
+            </div>
+    
+            <div class="proto">
+                <img src="Billeder/Untitled-1.png" width="100%">
+
+<h2>Prototype</h2>
+<br>               
+<p>Prototypen er en fysisk produkt som bruges til udførelsen af testmetoder. Denne gør det muligt for brugeren af navigere rundt på et synligt produkt. Når de valgte test er udført kan man derefter starte på selve udviklingen.</p>
+                
+<br>
+<br>
+                
+            </div>
+    
+            <div class="billede1">
+                <img src="Billeder/gangster.jpg" width="100%">
+            </div>
+   
+            <div class="gangster">
+                
+<h2>Gangstertest</h2>
+
+<br>
+                
+<p>Gangstertesten bygger på de gamle krimefilm, hvor man skal forstille sig at man bliver smidt i et bagagerum og sat af et ukendt sted hvor man kun har sine omgivelse at navigere efter. Konceptet er det samme på et website, hvis man ikke har være der før kan det være svært at finde frem til hvor de forskellige links leder til. Den eneste måde man kan komme frem er ved at prøve.</p>
+        
+        
+        
+<p>Denne tests udelukkede formål er at undersøge informationsarkiteturens funktioner.</p>
+        
+<p>Testen kan udføres både af flere men også af individet, og kan både udføres foran skærmen men også på kopier. 
+        nogle af de grundelementer man kan undersøge er;</p>
+        
+<br>
+                
+<p>1. Hvem er afsenderen af webstedet</p>
+<p>2. Hvor er den primære navigationsmenu</p>
+<p>3. Sidens muligheder</p>
+<p>4. Hvordan er man kommet rundt</p>
+<p>5. Findes der en søgefunktion</p>
+            
+     
+<i>(Usability - Testmetoder til mere brugbare websites (side. 44))</i>
+                
+<br>
+    
+<i>(Usability - Testmetoder til mere brugbare websites (side. 45))</i>
+
+            </div>
+            
+            <div class="struktur">
+                
+                <img src="Billeder/struktur.jpg" width="100%">
+                
+<h3>Den samlede struktur</h3>
+                
+<p4>Hierarkier, niveau og grupper</p4>
+                
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 43))</i>
+                
+            </div>
+            
+            <div class="varktoj">
+                
+                <img src="Billeder/tools.jpg" width="100%">
+                
+<h3>Værktøjer</h3>
+            
+<p4>Navigation</p4>
+
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 43))</i>
+            
+           </div>
+                    
+            <div class="navig">
+                
+                <img src="Billeder/navigation.jpg" width="100%">
+                
+<h3>Navigering og sprog</h3>
+            
+<p4>Knapper og overskrifter mv.</p4>
+                
+<br> 
+                
+<i>(Usability - Testmetoder til mere brugbare websites (side. 43))</i>
+                
+            </div>
+    
+            <div class="sogning">
+                
+                <img src="Billeder/sogning.jpg" width="100%">
+                
+<h3>Søgning</h3>
+                
+<p4>Søgefelt</p4>
+                
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 43))</i>
+                
+            </div>
+    
+            <div class="billede2">
+                
+                <img src="Billeder/kort.jpg" width="100%">
+                
+            </div>
+   
+            <div class="kort">
+                
+<h2>Kortsortering</h2>
+<br>
+                
+<p>Kortsorteringstesten er en simple, nem test som udføres med en række kort som alle indeholder dele af de webelementer man ønsker at undersøge.</p>
+
+<p>Formålet med testen er blandt andet om brugeren kan forstå knappernes betydninger, om navigationen er oplysende eller om der er andre punkter som han eller hun ikke forstår.</p>
+                
+<br>
+        
+<p>Selve metoden forgår på små kort hvorpå man forinden har har planlagt de elementer der skal undersøges og noteret dem på kortet. Når man skal udføre en kortsorteringstest er der tre ting som skal undersøges;</p>
+
+<br>
+
+<p> 1. Antallet af testpersoner</p>
+<p> 2. De elementer som skal undersøges i testen</p>
+<p> 3. Hvilke kortmetode er bedst egnet</p>
+
+<br>
+        
+<p>Man kan udføre testen på to forskellige måder,</p> 
+<p>henholdsvis "Åben" og "lukket";</p>
+
+<br>
+
+<p>1. Åbne metode hvor brugeren selv bestemmer kategorierne for de givende kort</p>
+<p>2. Lukkede metode hvor kategorierne er lagt i forvejen og det er her op til brugeren af bestemme hvor kortne skal ligge.</p>
+        
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 86-91))</i>
+                
+            </div>
+            
+            <div class="billede3">
+                
+                <img src="Billeder/user.jpg" width="100%">
+                
+            </div>
+            
+            <div class="bruger">
+                
+<h2>Brugertest</h2>
+<br>
+                
+<p>Brugertestmetoden er de mest anvendte testmetoder da denne giver udvikleren en mulighed for at følge brugerens oplevelser med websitet under testen. Her gør man brug af tænk-højt metoden hvor på brugeren kan fortælle skridt for skridt hvor de oplever eller ikke oplever fejl og mangler.</p>
+                
+<br>
+        
+<p>Metoden kan også forløbe sig som en fremvisningsmetode, hvorpå andre kan se hvor evt. problemer kan opstå.</p>
+      
+<p>Overordnet er metode både opfølgende og resultatgivende men det kræver en del forberedelse;</p>
+                
+<br>
+        
+<p><b>Forberedelse</b></p>
+
+    <p>Testopgaver og praktisk indhold, rekuttering af deltagere samt udførelse af pilottest.</p>
+
+<br>
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 97))</i>
+            
+<br>
+<br>
+            
+<p><b>Udførelsen</b></p>
+
+<p>En udførlse af en brugertest skal bestå af 3 dele (Introduktion, test samt opsamling) og må ikke vare mere en 1 time og 30 min.</p>
+                
+<br>
+            
+<p>Både billeder og tekst spiller en stor rolle på websites og derfor er de også nød til både at være skalerbare samt informerende.</p> 
+            
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 107))</i>
+            
+<br>
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 96-111))</i>
+            
+            </div>
+              
+            <div class="billede4">
+                
+                <img src="Billeder/tilgangelighed.jpg" width="100%">
+                
+            </div>
+    
+            <div class="tilgangtest">
+                
+<h2>Tilgængelighedstest</h2>
+<br>
+                
+<p>Tilgængelighedstest fokusere på at gøre websitets tilgængelighed nemmere. Dette omhandler ikke kun layoutet på siden men ligeledes også mængden af platforme som i dag indgår i den daglige hverdag. Derfor er man som udvikler nødt til at finde ud af hvordan man kan kombinere computer, mobil- og tablet størrelser så alle kan få adgang til de samme muligheder på andre platforme. </p>
+                
+<br>
+        
+<p><b>Tilgængelig visuel design</b></p>
+
+<p>Dette kan være i forhold til at holde sig til et enkelt antal sider, ensartethed samt gentagende navigationer på alle sider hvis dette er muligt.</p>
+
+<br>
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 117))</i>
+            
+<br>
+<br>
+            
+<p><b>Tilgængelige billeder og tekster</b></p>
+<p>Med fokus på brugere med besvær er man nødt til lægge design lidt i baggunden for teksten</p> 
+            
+<br>
+
+            
+<p4><i1>"grafik kan ikke læses højt af en skærmlæser".</i1></p4>
+            
+<br>
+<br>
+            
+<p>Både billeder og tekst spiller en stor rolle på websites og derfor er de også nød til både at være skalerbare samt informerende.</p>
+            
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 118))</i>
+            
+<br>
+<br>
+            
+<p><b>Teknisk tilgængelighed</b></p>
+            
+<p>De mange forskellige typer platforme byder med udfordringer i forhold til brugerens metode til at komme rundt på sitet derfor er det vigtigt at tage højde for om enheden bruger mus og tastatur eller om der er tale om pegeredskab eller touchscreen.</p> 
+            
+<br>
+            
+<i>(Usability - Testmetoder til mere brugbare websites (side. 119))</i>
+            
+<br>
+<br>
+
+<i>(Usability - Testmetoder til mere brugbare websites (side. 116-120))</i>
+                
+            </div>
+    
+            <div class="tom">
+            </div>
+            
+    
+    </div>
+    
+<footer>
+<p>Heidi Johansen &copy; 1 semester eksamen</p>    
+</footer>
+    
+</section>
+</body>
+</html>

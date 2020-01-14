@@ -1,0 +1,95 @@
+body {
+
+   background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        
+        "mal mal"
+        "sporg sporg"
+        "billede1 billede1" 
+        "hvorfor hvorfor"
+        "tom tom"
+        
+        
+        
+        ;
+                
+        
+        
+        }
+
+                .mal { 
+                    grid-area: mal;
+                 }
+
+                .sporg {
+                    grid-area: sporg;
+                    
+                   
+                  }
+
+                .billede1 {
+                    grid-area: billede1;
+                 }
+
+                .hvorfor {
+                    grid-area: hvorfor;
+                    padding: 15px;
+                 }
+
+
+                
+             
+
+                
+                .tom {
+                    grid-area: tom;
+                 }
+
+@media screen and (min-width: 736px) {
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 570px 570px 1fr;
+    
+        grid-template-areas:
+    
+        
+        ". mal mal ."
+        ". sporg sporg ."
+        ". billede1 hvorfor ."
+        ". tom tom ."
+        
+        
+        
+        ;
+                
+        
+        
+        }
+} 

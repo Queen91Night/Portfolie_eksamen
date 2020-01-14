@@ -1,0 +1,150 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        "udviklingen udviklingen"
+        "hypertext hypertext"
+        "world world"
+         
+        "information information"
+        "information_img information_img"
+        "protokol protokol"
+        "apranet apranet"
+        "aurl aurl"
+        "seo seo"
+     
+       ;
+                
+        
+        
+        }
+
+                .udviklingen {
+ 
+                    grid-area: udviklingen;
+                                    
+                    background-image: url(Billeder/sorthvis.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding: 15px;
+                }
+
+                .hypertext {
+            
+                    grid-area: hypertext;
+                    
+                    background-color: #111111;
+                    
+                    padding: 15px;
+                }
+
+                .world {
+               
+                    grid-area: world;
+                    
+                    background-color: #111111;
+                    
+                    padding: 15px;
+                }
+
+                .information {
+
+                    grid-area: information;
+                    
+                    background: transparent;
+                    padding: 15px;
+                  
+                }
+
+                .information_img {
+     
+                    grid-area: information_img;
+                    
+                    background: transparent;
+                    padding: 15px;
+                  
+                }
+
+                .protokol {
+    
+                    grid-area: protokol;
+                    
+                    background: black;
+                    padding: 50px;
+                }
+
+                .apranet {
+         
+                    grid-area: apranet;
+                    
+                    background: transparent;
+
+                    padding: 15px;
+                }
+
+                .aurl {
+         
+                    grid-area: aurl;
+                    
+                    background: transparent;
+
+                    padding: 15px;
+                }
+
+                .seo {
+         
+                    grid-area: seo;
+                    
+                    background: transparent;
+                    
+                    padding: 15px;
+                }
+
+
+
+@media screen and (min-width: 736px){
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 390px 390px 390px 1fr;
+    
+        grid-template-areas:
+    
+        ". udviklingen udviklingen hypertext ."
+        ". udviklingen udviklingen world ."
+        ". information_img information information ."
+        ". Farverum Farverum Farverum ."
+        ". protokol protokol protokol ."
+        ". apranet aurl seo ."
+       ;
+                
+        
+        
+        }
+}

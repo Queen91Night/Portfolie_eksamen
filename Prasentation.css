@@ -1,0 +1,131 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        "prasent prasent "
+        "dialog dialog"
+        "kend kend"
+        "mal mal"
+        "retorik retorik"
+        "tom tom"
+        
+        ;
+                
+        
+        
+        }
+
+                .prasent { 
+                    grid-area: prasent;
+                 }
+
+                .dialog {
+                    grid-area: dialog;
+                    
+                    background-image: url(Billeder/dialog.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding-bottom: 200px;
+                    padding-top: 15px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    
+                   
+                }
+
+                .kend {
+                    grid-area: kend;
+                    
+                    background-image: url(Billeder/kend.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    
+                    padding-bottom: 200px;
+                    padding-top: 15px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    
+                  
+                }
+
+                .mal {
+                    grid-area: mal;
+                    
+                    background-image: url(Billeder/mal.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding-bottom: 200px;
+                    padding-top: 15px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    
+                    
+                }
+
+                .retorik {
+                    grid-area: retorik;
+                    
+                    background-image: url(Billeder/retorik.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding-bottom: 200px;
+                    padding-top: 15px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                  
+                 }
+
+                
+                .tom {
+                    grid-area: tom;
+                 }
+
+@media screen and (min-width: 736px) {
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 285px 285px 285px 285px 1fr;
+    
+        grid-template-areas:
+    
+        ". prasent prasent prasent prasent ."
+        ". dialog kend mal retorik ."
+        ". tom tom tom tom ."
+        
+        ;
+                
+        
+        
+        }
+    
+}
+               

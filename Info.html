@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Informationsarkitektur</title>
+        
+        <link rel="stylesheet" href="Responsiv_navbar_styling.css">
+        <link rel="stylesheet" href="Info.css">
+        <link rel="stylesheet" href="divider.css">
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Mukta+Vaani|Poppins&display=swap" rel="stylesheet">
+        
+    </head>
+<body>
+    
+    <input type="checkbox" id="check">
+    <label for="check">
+     
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+        
+    </label>
+    
+    <div class="sidebar">
+        <header>Portfolie</header>
+        
+        <ul>
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Historie</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Farver.html">Farver</a>
+                    <a href="Typografi.html">Typografi</a>
+                    <a href="Internettet.html">Internettet</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Design</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Tekstprodukton.html">Tekstproduktion</a>
+                    <a href="Gestalloven.html">Gestaltloven</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Service</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="#">Kvantitativ empiri</a>
+                    <a href="#">Kvalitativ empiri</a>
+                    <a href="#">Business Model Generation</a>
+                </div>
+            </li>
+             
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Samlet</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Prasentation.html">Præsentationsteknik</a>
+                    <a href="Brugertest.html">Brugertest</a>
+                    <a href="Serversite.html">Serverside</a>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="Licens.html">Licens</a>
+            </li>
+            
+            <li>
+                <a href="Info.html">Info arkitektur</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    
+
+ <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+   
+    
+    
+    
+    
+<!---------------------------------------------------------------> 
+
+<section> 
+     
+<div id="mitgrid">
+            
+            
+            <div class="organi"><h1>Informationsarkitetur</h1> 
+                
+<p>Før man begynder selve udviklingen af et website så er man nødt til at tage nogle forholdsregler samt at lave en del undersøgelser og test, så man ikke ender med stå med et produkt, som står til flere ændringer end tid er værd.  
+<br>
+<br>
+ 
+<p>En af de mere grundlæggende måder at organisere data på er;</p>
+<br>   
+<p><b>Kategori</b> - Hvilke de forskellige e- dette kan f.eks. produkter eller serviceydelser.</p>
+<p><b>Tid</b> - Organisering af tidslinjer,historiske emner.</p><p><b>Lokation</b></p>
+<p><b>Alfabetisk</b> - Her kan der være navn, ordbøger med vidre.</p>
+<p><b>Kontinuum</b> - Organisering efter værdier.</p>
+
+        
+        <hr>
+        <i>(Interfacedesign - fra ide til prototype (side. 166-167))</i>
+    
+                
+            </div>
+                
+            <div class="billede1">
+                <img src="Billeder/HTML%20Mindmap.jpg" width="100%">
+            </div>
+              
+            <div class="brain"><h3>Brainstorm</h3>
+     <hr>
+                
+        <br>
+<p>Brainstorm er en metode til idegenerering som anset for at være en af de mest effektive metoder for at skabe nye og kreative ideér.</p>
+        
+        <br>    
+        
+        <p>Ved at strukturer ideerne ud fra en overordnet overskrift, kan man enten som individ eller som gruppe finde en fremgangsmetode som stiller de bedste resultater for problemstillingen.</p>
+            <br>
+        
+        <p>En af de bedste fremgangsmetoder for udførelsen af en brainstorm, sker ved brug af et større stykke papir (hvis man er traditionel). I midten indsættes problemstillingen og derfra kan man komme med inputs og ideer til den vidre udvikling.</p>
+        <br>
+        <p>Man kan udføre en idegenerering på forskellige måder, heraf kan man også bruge "Mindmap", en process som i høj grad minder om brainstorming men til forskel - bedre udføres i starten af udviklingen.</p>
+                            
+<br>
+
+        
+   
+        <i>(Kommunikation i multimediedesign (side. 168))</i>
+        <br>
+        <i><a href="https://innovation.sites.ku.dk/metode/klassisk-brainstormi/">innovation.sites.ku.dk/brainstorm</a></i>
+            </div>
+    
+            <div class="kort"><h3>Kortsortering</h3> 
+        <hr>  
+                
+        <br>
+    <p>Kortsortering er en fysisk proces hvor man finder frem til fremgangsmetoden ved at skrive indholdskatogorier ned på kort for derefter at arrangere dem i rækkefølger som virker logiske for de enkelte personer.</p>
+        
+            <br>
+        
+        <p>Der finde 2 former for kortsortering;</p>
+        <br>
+        <p>Et kort af gangen - her får deltageren et kort af gangen som de så opdeler i deres egen grupper, for til sidst at navngive dem.</p>
+        <br>
+        <p>Her er grupperne allerede lagt, men i stedet skal deltagerne lægge et kort af gangen under de forskellige kategorier.</p>
+            
+        <br>
+        <p>Til sidst skabes et overblik. baseret på processen, deltagernes udfordringer og overvejelse - som derfra kan bruges til forbedringer eller ændringer. </p>
+        
+    
+        <br>
+        <br>
+       
+        <i>(Kommunikation i multimediedesign (side. 168))</i>
+                         
+            </div>
+    
+            <div class="billede2">
+                <img src="Billeder/homelink.JPG" width="100%">
+            </div>
+    
+            <div class="billede3">
+                <img src="Billeder/searce.JPG" width="100%">
+            </div>    
+    
+            <div class="billede4">
+                <img src="Billeder/banner.JPG" width="100%">
+            </div>
+            
+            <div class="billede5">
+                <img src="Billeder/external.JPG" width="100%">
+            </div>
+   
+            <div class="billede6">
+                <img src="Billeder/shopping.JPG" width="100%">
+            </div>
+            
+            <div class="billede7">
+                <img src="Billeder/helplink.JPG" width="100%">
+            </div>
+            
+            <div class="billede8">
+                <img src="Billeder/about.JPG" width="100%">
+            </div>
+              
+            <div class="virsuel">
+                
+<h2>Virsualiseringen af arkitekturen</h2>
+        
+        <p>Når man gør noget virsuelt, handler det om at gøre det synligt så andre også kan tage del i objektet.</p>
+        
+            
+        
+        <p>Opstilling på et website kaldes også arkitetekturen og er bygget op af mange forskellige enheder, der alle har til formål at samle alt til en helhed, så undervejs i en udviklingsproces kan det være en fordel at supplere med "wireframes" igennem processen.</p>
+            
+        
+        <p>Wireframes er metode til at virsualisere indholdet på et website. Denne process gøre det nemmere at få et overblik over de grafiske placeringer og det generelle udseende som i høj grad besider hjemmesider i dag kontra webbets tidligere historie.</p>
+        
+        <p>Fordele med wireframes;</p>
+        
+        <ol>
+        <p>
+        
+            <li>Opdatere sig på brugerens forventninger til siden.</li>
+            <li>Man reducere mængden af tid på efterredigering.</li>
+            <li>Afprøve mange ideér hurtigt.</li>
+            <li>Fastgøre vigtigheden af siderne.</li>
+        
+        </p>
+        </ol>
+        
+        <hr>
+        <i>(Kommunikation i multimediedesign (side. 173))</i>
+        <br>
+        <i><a href="https://redweb.dk/aktuelt/hvad-er-en-wireframe-og-hvorfor-skal-du-bruge-det">https://redweb.dk/</a></i>
+                
+            </div>
+    
+            <div class="naviga">
+                
+<h2>Navigationsstruktur</h2>
+        
+        <p>Navigationsstruktur omhandler den måde indholdet opsættes for at sikre en nem og effektiv tilgang på websites. Dette giver blandt andet brugeren mulighed for at hoppe imellem links uden at fare vild i mængden af sider.  
+        <br>
+        Når man taler om strukturen i navigation kan man inddrage henholdsvis sitemaps som er beskrevet længere nede uder "kortlægning" samt "flowcharts";
+        </p>
+        
+        
+        <i>(Interfacedesign - fra ide til prototype (side. 217))</i>
+        
+        <p>Et diagram som trin for trin viser hvordan brugeren er kommet frem til forskellige resultater via de trin der er taget, vejene som han eller hun er gået samt de beslutninger som de har taget.</p>
+        
+        <i>(Interfacedesign - fra ide til prototype (side. 93))</i>
+        
+            </div>
+    
+            <div class="bar2">
+                
+<div class="tab">
+    
+    <button class="tablinks" onclick="openCity(event, 'site')">SiteID/Logo</button>
+    <button class="tablinks" onclick="openCity(event, 'primaer')">Primær navigation</button>
+    <button class="tablinks" onclick="openCity(event, 'uli')">Utilities</button>
+    <button class="tablinks" onclick="openCity(event, 'sogning')">Søgning</button>
+    <button class="tablinks" onclick="openCity(event, '1')">Wayfinding</button>
+    <button class="tablinks" onclick="openCity(event, '2')">Intuition</button>
+    <button class="tablinks" onclick="openCity(event, '3')">Mærkning</button>
+    <button class="tablinks" onclick="openCity(event, '4')">Kortlægning</button>
+    <button class="tablinks" onclick="openCity(event, '5')">Call to action</button>
+      
+</div>
+
+<div id="site" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+ 
+  
+    <p1><i1>Site-ID´et eller logoet er indgangen til siden og bør stå øverst og helst i venstre hjørne.</i1></p1> <p1><i1>Desuden skal brand/logo overholde reglerne om design samt skal alle sider have et ID, da indgangsmulighederne til et website er mange.</i1></p1>
+    <br>
+    <p><i>(Kommunikation i multimediedesign (side. 177))</i></p>
+    
+    
+        
+</div>
+
+<div id="primaer" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+  
+     <p1><i1>Er den overstående navigation</i1></p1> 
+    <br>
+    <p><i>(Kommunikation i multimediedesign (side. 177))</i></p>
+    
+  
+    
+</div>
+    
+    <div id="uli" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+         <p1><i1>Utilities er objekter med vigtighed som f.eks. "hjælp", "indkøbskurv" mv.</i1></p1> <p1><i1>Disse er ikke en del af den primære navigation og deres plads kan derfor variere.</i1></p1>
+    <br>
+    <p><i>(Kommunikation i multimediedesign (side. 177))</i></p>
+        
+</div>
+    
+    <div id="sogning" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        
+   <p1><i1>En direkte metode til at søge information på</i1></p1>
+    <br>
+    <p><i>(Kommunikation i multimediedesign (side. 177))</i></p>
+</div>
+    
+    <div id="1" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    
+   <p1><i1>Wayfinder handler om den måde vi kommer rundt om de forskellige obejekter og muligheder som findes på websites.</i1></p1> <p1><i1>Disse opsætninger bygger på hvordan hjemmesidens design er opsat, så brugeren nemt kan komme igennem tingene uden at skulle søge sig frem til resultaterne.</i1></p1>
+    <br>
+    <p><i>(Interfacedesign - fra ide til prototype (side. 221))</i></p> 
+    
+</div>
+
+<div id="2" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+    <p1><i1>Intuition består i at man handler uden at tænke over sine handlinger. Når man taler om website betyder dette at brugeren kommer rundt og trykker på objekter uden at bruge tid på at tænke over det.</i1></p1> <p1><i1>Vær opmærksom på at intuition ikke ligger i blodet og brugeren skal derfor igennem et par gange først.</i1></p1>
+    <br>
+    <p><i>(Interfacedesign - fra ide til prototype (side. 222))</i></p>
+        
+</div>
+
+<div id="3" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+    <p1><i1>Put labels på alt - Brugeren navigere igennem tydelige objekter som fortæller hvad han eller hun kan forvente ved at trykke på det givende område.</i1></p1>
+    <br>
+    <p><i>(Interfacedesign - fra ide til prototype (side. 222-223))</i></p>
+    
+</div>
+    
+    <div id="4" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+        <p1><i1>Det kan være så nemt bare at lukke fanen eller starte forfra, men for andre kan det være lige så svært at komme ud som det var at komme ind.</i1></p1> <p1><i1>Derfor er det vigtig at man indlægger spor eller objekter som kortlægger brugeren position - dette kan være igennem fremhævet menuer, url-adressen eller globel navigationsmuligheder.</i1></p1>
+    <br>
+    <p><i>(Interfacedesign - fra ide til prototype (side. 223))</i></p>
+        
+</div>
+    
+    <div id="5" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  
+        <p1><i1>Call-to-acion er en eftertragtet annonceringsmulighed, da siden igennem fremhævet tekst, design og farver trækker brugeren hen i en ønsket retning.</i1></p1>
+        
+        
+        
+            <br>
+    
+            <p1><i1>Teksten er indbydende</i1></p1>
+            <p1><i1>Central placeret med afstand til andre elementer</i1></p1>
+            <p1><i1>Farver i kontrast</i1></p1>
+            <p1><i1>Størrelseforhold</i1></p1>
+            <p1><i1>Ingen andre knapper i interface</i1></p1>
+        
+               
+    <br>
+    <p><i>(Interfacedesign - fra ide til prototype (side. 229-230))</i></p>
+        
+</div>
+        
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+                
+            </div>
+    
+            <div class="lineae">
+                
+                            
+<a href="#img2">
+  <img src="Billeder/linar1.JPG" class="thumbnail">
+</a>
+
+<!-- lightbox container hidden with CSS -->
+<a href="#_" class="lightbox" id="img2">
+  <img src="Billeder/linar1.JPG">
+</a>
+                            
+                <p1><i1>Linear</i1></p1>
+                <br>
+                <p1><i>(Interfacedesign - fra ide til prototype (side. 218))</i></p1>
+            </div>    
+    
+            <div class="hierak">
+              
+                            
+<a href="#img2">
+  <img src="Billeder/hira1.JPG" class="thumbnail">
+</a>
+
+<!-- lightbox container hidden with CSS -->
+<a href="#_" class="lightbox" id="img2">
+  <img src="Billeder/hira1.JPG">
+</a>
+                            
+                <p1><i1>Hierakisk</i1></p1> 
+                <br>
+                <p1><i>(Interfacedesign - fra ide til prototype (side. 218))</i></p1>
+            </div>
+            
+            <div class="kontekst">
+               
+                            
+<a href="#img2">
+  <img src="Billeder/kontekst1.JPG" class="thumbnail">
+</a>
+
+<!-- lightbox container hidden with CSS -->
+<a href="#_" class="lightbox" id="img2">
+  <img src="Billeder/kontekst1.JPG">
+</a>
+                            
+                  <p1><i1>Kontekst</i1></p1> 
+                <br>
+                <p1><i>(Interfacedesign - fra ide til prototype (side. 220))</i></p1>
+            </div>
+    
+            <div class="tom">
+            </div>
+    
+            
+    
+    </div>
+
+</section>
+</body>
+</html>

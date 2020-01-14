@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <title>Farver</title>
+        
+        <link rel="stylesheet" href="Responsiv_navbar_styling.css">
+        <link rel="stylesheet" href="Farver_css.css">
+        <link rel="stylesheet" href="divider.css">
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Mukta+Vaani|Poppins&display=swap" rel="stylesheet">
+        
+    </head>
+<body>
+    
+    <input type="checkbox" id="check">
+    <label for="check">
+     
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+        
+    </label>
+    
+    <div class="sidebar">
+        <header>Portfolie</header>
+        
+        <ul>
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Historie</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Farver.html">Farver</a>
+                    <a href="Typografi.html">Typografi</a>
+                    <a href="Internettet.html">Internettet</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Design</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Tekstprodukton.html">Tekstproduktion</a>
+                    <a href="Gestalloven.html">Gestaltloven</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Service</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="#">Kvantitativ empiri</a>
+                    <a href="#">Kvalitativ empiri</a>
+                    <a href="#">Business Model Generation</a>
+                </div>
+            </li>
+             
+            <li>
+                <div class="dropdown-btn"><a href="#"><i class="fa fa-caret-down"></i>Samlet</a>
+                </div>
+                
+                <div class="dropdown-container">
+                    <a href="Prasentation.html">Præsentationsteknik</a>
+                    <a href="Brugertest.html">Brugertest</a>
+                    <a href="Serversite.html">Serverside</a>
+                    <a href="Versionsstyring.html">Versionsstyring</a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="Licens.html">Licens</a>
+            </li>
+            
+            <li>
+                <a href="Info.html">Info arkitektur</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    
+
+ <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+   
+    
+    
+    
+    
+<!---------------------------------------------------------------> 
+
+<section> 
+     
+<div id="mitgrid">
+            
+            <div class="Farvepsykologi"><h1>Farvepsykologi</h1>
+                
+<p>Man forbinder ofte farverne med psykologien da menneske bliver påvirket af de farver som omgiver hverdagen.</p>
+                
+            </div>
+            
+            <div class="Farvehjulet">
+                
+                <img src="Billeder/colour-wheel-1734867_1280.jpg.png" width="100%">
+            </div>
+    
+    
+            <div class="Farverum_tekst"><h2>Farverum_tekst</h2>
+                
+<p>Ingen reagere ens på farverne, men der vil altid opstå en eller anden form for følelse - derfor indgår farver også meget i de ting vi laver, samt på produkter og i butikkerne.</p>
+
+<br>
+                
+<p>Hver farve siges at have sin egen følelse;</p>
+                
+                <br>
+                
+<p>Blå forbindes med positivitet og sikkerhed.</p>
+<p>Mørkeblå afspejler loyalitet og troværdighed.</p>
+<p>Rød frembringer forskellige føleleser hos folk, dette skyldes at rød bliver samlignet både som en afvarsel men også som kærlighed og passion.</p>
+<p>Gul er glæde og varme</p>
+<p>Grøn forbindes med naturen og vækst</p>
+<p>Lilla fremkalder spirtualitet og mystik</p>
+<p>Orange spejer ungdommen da dens farve frembringer energi og spænding</p>
+                  
+
+
+<i>(Interfacedesign - fra ide til prototype (side. 181 - 182))</i>
+
+           </div>    
+    
+            <div class="Farverum">
+                
+        <h2>World Wide Web</h2>        
+    
+            
+                
+            </div>
+            
+            <div class="Synlig">
+                
+                <img src="Billeder/hex.jpg" width="100%">
+                <h3>Synlig</h3>
+                <br>
+                <p>Er de farver som ligger placeret så langt ude i det synlige spectrum at de kan opfattes med det blotte øje.</p>
+            
+                <br>
+                <br>
+                <br>
+
+
+                <i><a href="http://www.sindalgrafisk.dk/index.php/tips-og-gode-raad/farverum">Www.sindalgrafisk.dk/synlige_farver</a></i>
+                
+                
+                
+            </div>
+            
+            <div class="typefarve">
+                
+                <img src="Billeder/rgb.jpg" width="100%">
+                <h3>Rgb</h3>
+                <br>
+                <p>Additivt farvesystem opstår når farverne rød, grøn og blå, igennem lys lægges ovenpå hinanden. Disse kaldes også RGB farver og bruges på elektroniske skærme.</p>
+            
+                <br>
+                <br>
+
+                <i>(Interfacedesign - fra ide til prototype (side. 181 - 182))</i>
+                
+                
+                
+            </div>
+            
+            <div class="blanding">
+                
+                <img src="Billeder/cmyk.jpg" width="100%">
+                <h3>Cmyk</h3>
+                <br>
+                <p>CMYK kombineres udelukket på de primære farve, denne kombination bruges hovedsageligt til tryk og print</p>
+            
+                <br>
+                <br>
+                <br>
+
+                <i><a href="http://www.sindalgrafisk.dk/index.php/tips-og-gode-raad/farverum">Www.sindalgrafisk.dk/CMYK</a></i>
+                
+                
+                
+            </div>
+            
+            <div class="Farvesammensatninger">
+                
+                <div class="divider"><span></span><span><h2>Farvesammensætninger</h2></span><span></span></div> 
+                
+                
+            </div>
+    
+            <div class="Billede">
+                
+                <img src="Billeder/palette.JPG" width="100%">
+                
+            </div>
+            
+            <div class="Webdesignerens">
+                
+                <h3>Webdesignerens farvepalette</h3>
+            </div>
+            
+            <div class="Primare"><h3>Primære</h3> 
+                
+                <img src="Billeder/Primar.jpg" width="100%">
+                
+            </div>
+    
+            <div class="Sakundere"><h3>Sækundere</h3>
+                
+                <img src="Billeder/sekundere.jpg" width="100%">
+                
+            </div>
+            
+            <div class="Tertiare"><h3>Tertiære</h3>
+                
+                <img src="Billeder/tartiare.jpg" width="100%">
+                
+            </div>
+            
+            <div class="Hjemmesider">
+                
+                <div class="divider"><span></span><span><h2>Hjemmesider med farvepaletter</h2></span><span></span></div>
+            </div>
+            
+            <div class="fUrl_1">
+                
+                
+                
+                <a href="http://colormind.io/">www.colormind.io</a>
+                
+                
+            </div>
+            
+            <div class="fUrl_2">
+                
+                
+                <a href="https://www.color-hex.com/">www.color-hex.com</a>
+                
+                
+            </div>
+    
+            <div class="tom">
+            </div>
+    
+    </div>
+
+    
+<footer>
+<p>Heidi Johansen &copy; 1 semester eksamen</p>    
+</footer>
+    
+</section>
+</body>
+</html>

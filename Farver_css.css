@@ -1,0 +1,205 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+   
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        "Farvepsykologi Farvepsykologi"
+        "Farvehjulet Farvehjulet" 
+        "Farverum_tekst Farverum_tekst"
+        "Farverum Farverum"
+        "Synlig Synlig"
+        "typefarve typefarve"
+        "blanding blanding"
+        "Farvesammensatninger Farvesammensatninger"
+        "Billede Billede"
+        "Webdesignerens Webdesignerens"
+        "Primare Primare" 
+        "Sakundere Sakundere"
+        "Tertiare Tertiare"
+        "Hjemmesider Hjemmesider"
+        "fUrl_1 fUrl_1" 
+        "fUrl_2 fUrl_2"
+        "tom tom";
+                
+        
+        
+        }
+
+                .Farvepsykologi {
+                    background-color: #fff; 
+                    grid-area: Farvepsykologi;
+                                    
+                     background: transparent;
+                }
+
+                .Farvehjulet {
+                    background-color: #fff;
+                    grid-area: Farvehjulet;
+                    
+                    background: transparent;
+                }
+
+                .Farverum {
+                    background-color: #fff;
+                    grid-area: Farverum;
+                    
+                    background: transparent;
+                }
+
+                .Farverum_tekst {
+                    background-color: #fff;
+                    grid-area: Farverum_tekst;
+                    
+                    background: transparent;
+                  
+                }
+
+                .Synlig {
+                    background-color: #fff;
+                    grid-area: Synlig;
+                    
+                    background: transparent;
+                }
+
+                .typefarve {
+                    background-color: #fff;
+                    grid-area: typefarve;
+                    
+                    background: transparent;
+                }
+
+                .blanding {
+                    background-color: #fff;
+                    grid-area: blanding;
+                    
+                    background: transparent;
+                }
+
+                .Farvesammensatninger {
+                    background-color: #fff;
+                    grid-area: Farvesammensatninger;
+                    
+                    background: transparent;
+                }
+
+                .Billede {
+                    background-color: #fff;
+                    grid-area: Billede;
+                    
+                    background: transparent;
+                }
+
+                .Webdesignerens {
+                    background-color: #fff;
+                    grid-area: Webdesignerens;
+                    
+                    padding: 15px;
+                    
+                    background-color: black;
+                }
+
+                .Primare {
+                    background-color: #fff;
+                    grid-area: Primare;
+                    
+                    background: transparent;
+                    
+                }
+
+                .Sakundere {
+                    background-color: #fff;
+                    grid-area: Sakundere;
+                    
+                    background: transparent;
+                }
+
+                .Tertiare {
+                    background-color: #fff;
+                    grid-area: Tertiare;
+                    
+                    background: transparent;
+                }
+
+                .Hjemmesider {
+                    background-color: #fff;
+                    grid-area: Hjemmesider;
+                    
+                    background: transparent;
+                }
+
+                .fUrl_1 {
+                    background-color: #fff;
+                    grid-area: fUrl_1;
+                    
+                    background: transparent;
+                }
+
+                .fUrl_2 {
+                    background-color: #fff;
+                    grid-area: fUrl_2;
+                    
+                    background: transparent;
+                }
+
+                .tom {
+                    background-color: #fff;
+                    grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+
+@media screen and (min-width: 736px){
+    
+   
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 380px 380px 380px 1fr;
+    
+        grid-template-areas:
+    
+        ". Farvepsykologi Farvepsykologi Farvepsykologi ."
+        ". Farvehjulet Farverum_tekst Farverum_tekst ."
+        ". Farvehjulet Farverum_tekst Farverum_tekst ."
+        ". Farverum Farverum Farverum ."
+        ". Synlig typefarve blanding ."
+        ". Farvesammensatninger Farvesammensatninger Farvesammensatninger ."
+        ". Billede Billede Billede ."
+        ". Webdesignerens Webdesignerens Webdesignerens ."
+        ". Primare Sakundere Tertiare ."
+        ". Hjemmesider Hjemmesider Hjemmesider ."
+        ". fUrl_1 . fUrl_2 ."
+        ". tom tom tom .";
+                
+        
+        
+        }
+    
+}

@@ -1,0 +1,212 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+            
+            "indledning indledning"
+            "billede1 billede1"
+            "kopright kopright"
+            "kopright_text kopright_text"
+            "creativcomm creativcomm"
+            "billede2 billede2"
+            "cc cc"
+            "billede3 billede3"
+            "cc0 cc0"
+            "billede4 billede4"
+            "aattr aattr"
+            "billede5 billede5"
+            "nc nc"
+            "immaterielle immaterielle"
+            "gdrp gdrp"
+            "vare vare"
+            "ide ide"
+            "person person"
+            "kopcomm kopcomm"
+            "tom tom";
+                
+        
+        
+        }
+
+                .indledning { 
+                    grid-area: indledning;
+                 }
+
+                .billede1 {
+                    grid-area: billede1;
+                    
+                    background-image: url(Billeder/licens.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding: 100px;
+                }
+
+                .kopright {
+                    grid-area: kopright;
+                    
+                    background-color: black;
+                    padding: 15px;
+                }
+
+                .kopright_text {
+                    grid-area: kopright_text;
+                    
+                    padding: 15px;
+                }
+
+                .creativcomm {
+                    grid-area: creativcomm;
+                    
+                    background-color: black;
+                    padding: 15px;
+                 }
+
+                .cc {
+                    grid-area: cc;
+                    padding: 15px;
+                    
+                    border-left: solid;
+                    border-top: solid;
+                    border-bottom: solid;
+                 }
+
+                .billede2 {
+                    grid-area: billede2;
+                 }
+
+                .cc0 {
+                    grid-area: cc0;
+                    padding: 15px;
+                    
+                    border-left: solid;
+                    border-top: solid;
+                    border-bottom: solid;
+                 }
+
+                .billede3 {
+                    grid-area: billede3;
+                }
+
+                .aattr {
+                    grid-area: aattr;
+                    padding: 15px;
+                    
+                    border-left: solid;
+                    border-top: solid;
+                    border-bottom: solid;
+                 }
+
+                .billede4 {
+                    grid-area: billede4;
+                 }
+
+                .nc {
+                    grid-area: nc;
+                    padding: 15px;
+                    
+                    border-left: solid;
+                    border-top: solid;
+                    border-bottom: solid;
+                 }
+
+                .billede5 {
+                    grid-area: billede5;
+                    
+                }
+
+                .immaterielle {
+                    grid-area: immaterielle;
+                    
+                    background-color: black;
+                    padding: 15px;
+                    
+                }
+
+                .gdrp {
+                    grid-area: gdrp;
+                 }
+
+                .vare {
+                    grid-area: vare;
+                }
+
+                .ide {
+                    grid-area: ide;
+                }
+
+                .person {
+                    grid-area: person;
+                    
+                    padding: 15px;
+                    
+                    border-left: solid;
+                    border-top: solid;
+                    border-bottom: solid;
+                    border-right: solid;
+                 }
+
+                .kopcomm {
+                    grid-area: kopcomm;
+                 }
+
+                .tom {
+                    grid-area: tom;
+                 }
+
+    @media screen and (min-width: 736px){
+    
+   
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 285px 285px 285px 285px 1fr;
+    
+        grid-template-areas:
+    
+        ". indledning indledning indledning indledning ."
+        ". billede1 billede1 billede1 billede1 ."
+        ". kopright kopright kopright kopright ."
+        ". kopright_text kopright_text kopright_text kopright_text ."
+        ". creativcomm creativcomm creativcomm creativcomm ."
+        ". billede2 cc cc cc ."
+        ". billede3 cc0 cc0 cc0 ."
+        ". billede4 aattr aattr aattr ."
+        ". billede5 nc nc nc ."
+        ". immaterielle immaterielle gdrp gdrp ."
+        ". immaterielle immaterielle vare vare ."
+        ". ide ide ide ide ."
+        ". person person person person ."
+        ". kopcomm kopcomm kopcomm kopcomm ."
+        ". tom tom tom tom ."
+        ;
+                
+        
+        
+        }
+    
+}           

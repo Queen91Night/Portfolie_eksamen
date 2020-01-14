@@ -1,0 +1,139 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        "typeface typeface"
+        "family family"
+        "vagt vagt"
+        "klassifik klassifik"
+        "aserif aserif"
+        "asans asans"
+        "kompo kompo"
+        "virsuel virsuel"
+        "linje linje"
+       ;
+                
+        
+        
+        }
+
+                .typeface {
+                    background-color: #fff; 
+                    grid-area: typeface;
+                    
+                    background: transparent;
+                   
+                }
+
+                .family {
+                    background-color: #fff;
+                    grid-area: family;
+                    
+                    background: transparent;
+                }
+
+                .vagt {
+                    background-color: #fff;
+                    grid-area: vagt;
+                    
+                    background: transparent;
+                }
+
+                .klassifik {
+                    background-color: #fff;
+                    grid-area: klassifik;
+                    
+                    background: transparent;
+                  
+                }
+
+                .aserif {
+                    background-color: #fff;
+                    grid-area: aserif;
+                    
+                    background: transparent;
+                }
+
+                .asans {
+                    background-color: #fff;
+                    grid-area: asans;
+                    
+                    background: transparent;
+                }
+
+                .kompo {
+                    background-color: #fff;
+                    grid-area: kompo;
+                    
+                    background: transparent;
+                }
+
+                .virsuel {
+                    background-color: #fff;
+                    grid-area: virsuel;
+                    
+                    background: transparent;
+                }
+
+                .linje {
+                    background-color: #fff;
+                    grid-area: linje;
+                    
+                    background: transparent;
+                }
+
+
+                .tom {
+                    background-color: #fff;
+                    grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+
+@media screen and (min-width: 736px){
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 585px 585px 1fr;
+    
+        grid-template-areas:
+    
+        ". typeface typeface ."
+        ". family vagt ."
+        ". klassifik klassifik ."
+        ". aserif asans ."
+        ". kompo kompo ."
+        ". virsuel linje ."
+       ;
+                
+        
+        
+        }
+}
+

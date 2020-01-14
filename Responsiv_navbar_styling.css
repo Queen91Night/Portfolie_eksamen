@@ -1,0 +1,465 @@
+/* CSS variabels */
+:root {
+    --primary: #e1e8f0;
+    --dark: #253147;
+    --light: #fff;
+    --shadow: 0 1px 4px rgba(104, 104, 104, 0,8);
+}
+
+footer {
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s ease;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(225,225,225,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 30px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s; 
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+#check:checked ~ label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+    left: 195px;
+    position: fixed;
+}
+
+#check:checked ~ section {
+    margin-left: 250px;
+}
+
+section {
+
+    height: 100%;
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-container {
+  
+display: none;
+  background-color: #262626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+.bar1 {
+  overflow: hidden;
+  background-image: url(sorthvis.jpg);
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.bar1 button {
+  background-color: inherit;
+    color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.bar1 button:hover {
+  background-color: var(--dark);
+}
+
+/* Create an active/current tablink class */
+.bar1 button.active {
+  background-color: var(--dark);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+    color: var(--light);
+    text-align: center;
+    background-color: black; 
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-image: url(sorthvis.jpg);
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+    color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: var(--dark);
+}
+
+/* Create an active/current tablink class */
+.bar2 button.active {
+  background-color: var(--dark);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+    color: var(--light);
+    text-align: center;
+    background-color: black; 
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+    color: white;
+}
+
+
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+    position: absolute;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+
+
+.thumbnail {
+  max-width: 100%;
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+    text-align: left;  
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+
+h4{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+
+h5{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+
+h6{
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    
+    font-family: 'Cormorant Upright', serif;
+}
+
+
+
+p{
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+p1{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+p2{
+    color: white;
+    font-size: 0.8rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+p3{
+    color: black;
+    font-size: 1.2rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+p4{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+ol, li{
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+i{
+    color: blue;
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+i1{
+    color: white;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: left;
+    
+    font-family: 'Mukta Vaani', sans-serif;
+}
+

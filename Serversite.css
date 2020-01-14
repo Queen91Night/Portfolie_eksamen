@@ -1,0 +1,143 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+    
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+          
+            "aphp aphp"
+            "serversprog serversprog"
+            "clientsprog clientsprog"
+            "billede1 billede1"
+            "billede2 billede2"
+            "billede3 billede3"
+            "billede4 billede4"
+            "billede5 billede5"
+            "ajava ajava"
+            "tom tom"
+            ;
+
+        }
+
+                .aphp { 
+                    grid-area: aphp;
+                                    
+                    background-image: url(Billeder/sorthvis.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    
+                    padding: 15px;
+                }
+
+                .serversprog {
+                    grid-area: serversprog;
+                    
+                    padding: 15px;
+                    
+                }
+
+                .clientsprog {
+                    grid-area: clientsprog;
+                    
+                    padding: 15px;
+                    
+                }
+
+                .billede1 {
+                    grid-area: billede1;
+                    
+
+                  
+                }
+
+                .billede2 {
+                    grid-area: billede2;
+                    
+
+                    
+                    
+                    
+                }
+
+                .billede3 {
+                    grid-area: billede3;
+                    
+
+                    
+                    
+                    
+                }
+
+                .billede4 {
+                    grid-area: billede4;
+                    
+
+                    
+                    
+                    
+                }
+
+                .billede5 {
+                    grid-area: billede5;
+                    
+       
+                }
+
+                .ajava {
+                    grid-area: ajava;
+                    
+  
+                }
+
+                
+                .tom {
+                    grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+@media screen and (min-width: 736px){
+    
+   
+    
+   #mitgrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 285px 285px 285px 285px 1fr;
+    
+        grid-template-areas:
+    
+        ". aphp aphp aphp aphp ."
+        ". serversprog serversprog clientsprog clientsprog ."
+        ". billede1 billede2 billede3 billede4 ."
+        ". billede5 billede5 ajava ajava ."
+        ". tom tom tom tom ."
+        ;
+                
+
+        }
+    
+}

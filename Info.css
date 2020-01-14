@@ -1,0 +1,204 @@
+body {
+
+    background-image: url("Billeder/farver_dark.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Rakkas', sans-serif;
+    
+     
+    margin: 0;
+    padding: 15px;
+    
+     
+    margin: 0;
+    padding: 15px;
+}
+
+#mitgrid div {
+    font-size: 2em; 
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#mitgrid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas:
+    
+        "organi organi"
+    "billede1 billede1"
+    "brain brain"
+    "kort kort"
+    "billede2 billede2"
+    "billede3 billede3"
+    "billede4 billede4"
+    "billede5 billede5"
+    "billede6 billede6"
+    "billede7 billede7"
+    "billede8 billede8"
+    "virsuel virsuel"
+    "naviga naviga"
+    "bar2 bar2"
+    "lineae lineae"
+    "hierak hierak"
+    "kontekst kontekst"
+    "tom tom"
+        
+       ;
+                
+       
+    
+    
+        
+        }
+
+                .organi {
+                    grid-area: organi;
+                    
+                    background: transparent;
+                }
+
+    
+                .billede1 {
+                    grid-area: billede1;
+                    
+                    background: transparent;
+                }
+
+                .brain {
+                   grid-area: brain;
+                    
+                    background-color: black;
+                    padding: 15px;
+                }
+
+
+                .kort {
+                   grid-area: kort;
+                    
+                    background-color: black;
+                    padding: 15px;
+                }
+
+                .billede2 {
+                    grid-area: billede2;
+                    
+                    background: transparent;
+                }
+
+                .billede3 {
+                   grid-area: billede3;
+                    
+                    background: transparent;
+                }
+
+
+                .billede4 {
+                   grid-area: billede4;
+                    
+                    background: transparent;
+                }
+
+                .billede5 {
+                    grid-area: billede5;
+                    
+                    background: transparent;
+                }
+
+                .billede6 {
+                   grid-area: billede6;
+                    
+                    background: transparent;
+                }
+
+
+                .billede7 {
+                    grid-area: billede7;
+                    
+                    background: transparent;
+                }
+
+                .billede8 {
+                   grid-area: billede8;
+                    
+                    background: transparent;
+                }
+
+
+                .virsuel {
+                   grid-area: virsuel;
+                    
+                    background: transparent;
+                }
+
+                .naviga {
+                    grid-area: naviga;
+                    
+                    background: transparent;
+                }
+
+                .bar2 {
+                   grid-area: bar2;
+                    
+                    background: transparent;
+                }
+
+
+                .lineae {
+                   grid-area: lineae;
+                    
+                    background: transparent;
+                }
+    
+                .hierak {
+                    grid-area: hierak;
+                    
+                    background: transparent;
+
+                }
+
+                .kontekst {
+                   grid-area: kontekst;
+                    
+                    background: transparent;
+                }
+
+
+                .tom {
+                   grid-area: tom;
+                    
+                    background: transparent;
+                }
+
+   @media screen and (min-width: 736px){
+    
+   
+    
+    #mitgrid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 163px 163px 163px 163px 163px 163px 163px 1fr;
+    
+        grid-template-areas:
+    
+        ". organi organi organi organi organi organi organi ."
+        
+        ". billede1 billede1 billede1 billede1 billede1 billede1 billede1 ."
+        ". brain brain brain . kort kort kort ."
+        ". billede2 billede3 billede4 billede5 billede6 billede7 billede8 ."
+        ". virsuel virsuel virsuel virsuel virsuel virsuel virsuel ."
+        ". naviga naviga naviga naviga naviga naviga naviga ."
+        ". bar2 bar2 bar2 bar2 bar2 bar2 bar2 ."
+        ". . lineae . hierak . kontekst . ."
+        ". tom tom tom tom tom tom tom ."
+        
+       ;
+        
+       }
+    
+}             
